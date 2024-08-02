@@ -1,16 +1,47 @@
-# project_two
+# Animal Image Guessing Flutter App
 
-A new Flutter project.
+A fun guessing game where users try to guess the animal based on shuffled images.
+
+## Features
+
+- Displays an image of an animal.
+- A "Shuffle" button to shuffle the image of the animal.
+- Random animal images for varied gameplay.
+
+## Screenshots
+
+<p >
+  <img src="assets/a1.jpg" alt="Screenshot 1" width="250"/>
+  <img src="assets/a2.jpg" alt="Screenshot 2" width="250"/>
+</p>
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK (included with Flutter)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/aparnaprabhuu/Shuffled-animal-app.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd Shuffled-animal-app
+    ```
+3. Install dependencies:
+    ```sh
+    flutter pub get
+    ```
+
+### Running the App
+
+1. Ensure a device is connected or an emulator is running.
+2. Run the app:
+    ```sh
+    flutter run
+    ```
